@@ -1,0 +1,36 @@
+.nightsity {
+  padding: 70px 0;
+}
+.nightsity__inner {
+}
+.nightsity__inner-top {
+  margin-bottom: 70px;
+}
+.nightsity__inner-title {
+  @include title;
+}
+.nightsity__inner-description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px;
+  color: var(---gray-color);
+  max-width: 972px;
+  margin-top: 25px;
+  & span {
+    color: var(---blue-color);
+    font-weight: 700;
+  }
+}
+.nightsity__inner-gallery {
+  display: grid;
+  grid-template-columns: 460px 788px;
+  grid-template-rows: repeat(2, 196px);
+  gap: 32px;  
+}
+  
+.item---one { grid-area: 1 / 1 / 2 / 2; }
+.item---two { grid-area: 2 / 1 / 3 / 2; }
+.item---three { grid-area: 1 / 2 / 3 / 3; }
+.nightsity__inner-gallery {
+}
+.nightsity__inner-image {}
